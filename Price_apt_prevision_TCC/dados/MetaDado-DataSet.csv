@@ -1,0 +1,43 @@
+Atributo;Descrição;Tipo
+id;Id do registro;object
+unitId;Id da unidade;int64
+price;Preço de venda do imóvel (R$);float64
+rentalPrice;Preço de aluguel;float64
+complexFee;Taxa Condomínio;float64
+area;Área do imóvel (m²);int64
+status;Status do imóvel;object
+currentPhase;Fase atual ;object
+amenities;Comodidades do imóvel;object
+unitHasBalcony;Unidade tem varanda;bool
+floor;Andar do imóvel;float64
+bedrooms;Quantidade de quartos;int64
+suits;Quantidade de suits;int64
+image;Imagem do imóvel;object
+image_thumbnail;Miniatura da imagem do imóvel;object
+image_icon;Imagem de ícone do imóvel;object
+isMarketplace;Se é mercado;bool
+isRentable;É rentável?;bool
+productType;Tipo de produto;object
+contractType;Tipo do contrato;object
+parkingSpots;Quantidade de vagas;int64
+createdAt;Data de Criação;object
+subwayShortestDistance;Distância mais curta do metrô (m);float64
+restrooms;Quantidade de banheiros;int64
+propertyType;Tipo de propriedade;object
+hasVirtualTour;Tem Tuor Virtual;bool
+address;Endereço do imóvel;object
+_geoloc;Geolocalização, latitude e longitude;object
+createdAtTimeStamp;Horário de criação;int64
+imageScored;Imagem mais Acessada;object
+photos;Lista de fotos;object
+homeType;Tipo de imóvel;object
+objectID;Id do imóvel;object
+_highlightResult;Destacar em resultado de pesquisa;object
+previousPrice;Preço anterior;float64
+priceUpdatedAt;Data de Atualização do Preço;object
+isOnSale;Está à venda;object
+floorplan;Foto da planta;object
+details;Detalhes;object
+condominiumDoorkeeperAvailability;Tem porteiro na portaria;object
+propertyTax;Imposto sobre o Imóvel (IPTU);float64
+unitFeatures;Características da Unidade;object
